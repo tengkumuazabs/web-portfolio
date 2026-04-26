@@ -71,7 +71,7 @@ export default function Experience() {
                   </div>
 
                   <p className="text-sm text-accent mt-1">
-                    Universitas Islam Indonesia • Yogyakarta, Indonesia
+                    Universitas Islam Indonesia • Sleman, Indonesia
                   </p>
 
                   <ul className="list-disc ml-5 mt-3 text-sm text-muted space-y-1">
@@ -106,7 +106,7 @@ export default function Experience() {
                   </div>
 
                   <p className="text-sm text-accent mt-1">
-                    Universitas Islam Indonesia • Yogyakarta, Indonesia
+                    Universitas Islam Indonesia • Sleman, Indonesia
                   </p>
 
                   <ul className="list-disc ml-5 mt-3 text-sm text-muted space-y-1">
