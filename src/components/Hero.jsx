@@ -13,7 +13,7 @@ export default function Hero() {
       </h1>
 
       <p className="text-muted mt-2">
-        Data Analyst | FMCG Commercial Analytics | Power BI & Python Automation
+        Data Analyst | FMCG Commercial Analytics | Power BI, Python & Excel VBA Automation
       </p>
 
       {/* Location + Contacts (inline) */}
