@@ -1,6 +1,9 @@
+import { useState } from "react";
 import { motion } from "framer-motion";
 
 export default function Navbar() {
+  const [open, setOpen] = useState(false);
+
   return (
     <motion.nav
       initial={{ opacity: 0, y: -10 }}
@@ -9,9 +12,11 @@ export default function Navbar() {
     >
       <div className="flex justify-between items-center">
 
+        {/* Logo */}
         <h1 className="font-semibold">Web Portfolio</h1>
 
-        <div className="flex gap-6 text-sm text-muted">
+        {/* Desktop Menu */}
+        <div className="hidden md:flex gap-6 text-sm text-muted">
           <a href="#hero" className="hover:text-white">Home</a>
           <a href="#summary" className="hover:text-white">Summary</a>
           <a href="#experience" className="hover:text-white">Experience</a>
@@ -19,7 +24,26 @@ export default function Navbar() {
           <a href="#projects" className="hover:text-white">Projects</a>
         </div>
 
+        {/* Mobile Button */}
+        <button
+          className="md:hidden text-sm text-muted"
+          onClick={() => setOpen(!open)}
+        >
+          {open ? "Close" : "Menu"}
+        </button>
+
       </div>
+
+      {/* Mobile Menu */}
+      {open && (
+        <div className="md:hidden mt-4 flex flex-col gap-3 text-sm text-muted">
+          <a href="#hero" onClick={() => setOpen(false)}>Home</a>
+          <a href="#summary" onClick={() => setOpen(false)}>Summary</a>
+          <a href="#experience" onClick={() => setOpen(false)}>Experience</a>
+          <a href="#skills" onClick={() => setOpen(false)}>Skills</a>
+          <a href="#projects" onClick={() => setOpen(false)}>Projects</a>
+        </div>
+      )}
     </motion.nav>
   );
 }
