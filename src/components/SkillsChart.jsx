@@ -8,23 +8,23 @@ import {
 
 const dataAnalysis = [
   { subject: "Python", A: 90 },
-  { subject: "SQL", A: 80 },
-  { subject: "Power BI", A: 85 },
-  { subject: "Excel", A: 80 },
+  { subject: "SQL", A: 75 },
+  { subject: "Power BI", A: 80 },
+  { subject: "Excel", A: 90 },
   { subject: "Data Viz", A: 85 },
 ];
 
 const graphicDesign = [
-  { subject: "Adobe Illustrator", A: 85 },
-  { subject: "Photoshop", A: 80 },
-  { subject: "CorelDRAW", A: 85 },
+  { subject: "Adobe Illustrator", A: 90 },
+  { subject: "Photoshop", A: 75 },
+  { subject: "CorelDRAW", A: 75 },
   { subject: "Branding", A: 80 },
   { subject: "UI Design", A: 70 },
 ];
 
 function RadarBlock({ title, data }) {
   return (
-    <div className="bg-card p-5 rounded-xl border border-white/10">
+    <div className="bg-card p-5 rounded-xl border border-white/10" id="skills">
       <h3 className="text-sm text-muted mb-3">{title}</h3>
 
       <ResponsiveContainer width="100%" height={220}>

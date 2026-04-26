@@ -17,7 +17,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div>
+    <div id="projects">
       <h2 className="text-xl font-semibold mb-4">Projects</h2>
 
       <div className="grid md:grid-cols-3 gap-4">
