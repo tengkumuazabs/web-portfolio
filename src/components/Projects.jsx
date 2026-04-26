@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Terminal } from "lucide-react";
 
 const projects = [
   {
@@ -18,7 +19,10 @@ const projects = [
 export default function Projects() {
   return (
     <div id="projects">
-      <h2 className="text-xl font-semibold mb-4">Projects</h2>
+      <h2 className="text-xl font-semibold mb-4 flex items-center gap-2">
+        <Terminal size={18} />
+        Projects
+      </h2>
 
       <div className="grid md:grid-cols-3 gap-4">
         {projects.map((p, i) => (

@@ -22,6 +22,7 @@ export default function Navbar() {
           <a href="#experience" className="hover:text-white">Experience</a>
           <a href="#skills" className="hover:text-white">Skills</a>
           <a href="#projects" className="hover:text-white">Projects</a>
+          <a href="#graphic-design" className="hover:text-white">Design Portfolio</a>
         </div>
 
         {/* Mobile Button */}
@@ -42,6 +43,7 @@ export default function Navbar() {
           <a href="#experience" onClick={() => setOpen(false)}>Experience</a>
           <a href="#skills" onClick={() => setOpen(false)}>Skills</a>
           <a href="#projects" onClick={() => setOpen(false)}>Projects</a>
+          <a href="#graphic-design" onClick={() => setOpen(false)}>Design Portfolio</a>
         </div>
       )}
     </motion.nav>

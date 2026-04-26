@@ -4,6 +4,7 @@ import Summary from "./components/Summary";
 import Experience from "./components/Experience";
 import SkillsChart from "./components/SkillsChart";
 import Projects from "./components/Projects";
+import GraphicDesign from "./components/DesignPortfolio";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
@@ -20,6 +21,7 @@ export default function App() {
         <Experience />
         <SkillsChart />
         <Projects />
+        <GraphicDesign />
       </main> 
 
       <Footer />

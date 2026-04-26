@@ -6,6 +6,9 @@ import {
   Radar,
 } from "recharts";
 
+import { Settings } from "lucide-react";
+
+
 const dataAnalysis = [
   { subject: "Python", A: 90 },
   { subject: "SQL", A: 75 },
@@ -33,8 +36,8 @@ function RadarBlock({ title, data }) {
           <PolarAngleAxis dataKey="subject" />
           <Radar
             dataKey="A"
-            stroke="#4f46e5"
-            fill="#4f46e5"
+            // stroke="#4f46e5"
+            fill="#a180bd"
             fillOpacity={0.4}
           />
         </RadarChart>
@@ -46,7 +49,11 @@ function RadarBlock({ title, data }) {
 export default function SkillsChart() {
   return (
     <div className="mb-10">
-      <h2 className="text-xl font-semibold mb-4">Skills Overview</h2>
+      {/* Heading with icon */}
+      <h2 className="text-xl font-semibold mb-4 flex items-center gap-2">
+        <Settings size={18} />
+        Skills Overview
+      </h2>
 
       <div className="grid md:grid-cols-2 gap-4">
         <RadarBlock
