@@ -11,7 +11,7 @@ export default function Hero() {
       id="hero"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      className="mb-10"
+      className="mb-10 scroll-mt-24"
     >
       <h1 className="text-4xl font-bold">
         Tengku Muaz Abdussalam

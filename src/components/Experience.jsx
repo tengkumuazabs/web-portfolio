@@ -4,7 +4,7 @@ import { UserStar  } from "lucide-react";
 
 export default function Experience() {
   return (
-    <div className="mb-10" id="experience">
+    <div className="mb-10 scroll-mt-24" id="experience">
       {/* Heading with icon */}
       <h2 className="text-xl font-semibold mb-4 flex items-center gap-2">
         <UserStar  size={18} />
