@@ -21,42 +21,45 @@ export default function Hero() {
         Data Analyst • FMCG Commercial Analytics • Power BI, Python & Excel VBA Automation • Graphic Design Enthusiast
       </p>
 
-      {/* Location + Contacts (inline) */}
-      <div className="mt-4 flex flex-wrap items-center gap-2">
-
-        <div className="px-3 py-1 bg-card rounded-full text-sm text-accent flex items-center gap-2">
+      {/* Location */}
+      <div className="mt-4">
+        <div className="px-3 py-1 bg-card rounded-full text-sm text-accent flex items-center gap-2 w-fit">
           <MapPin size={18} />
           Sleman, Yogyakarta, Indonesia
         </div>
 
-        <a
-          href="mailto:tengkumuaz.abs@gmail.com"
-          className="px-3 py-1 bg-card rounded-full text-sm text-accent flex items-center gap-2 hover:bg-white/5 transition-colors cursor-pointer"
-        >
-          <Mail size={18} />
-          tengkumuaz.abs@gmail.com
-        </a>
+        {/* Buttons */}
+        <div className="mt-3 flex flex-wrap items-center gap-2">
 
-        <a
-          href="https://linkedin.com/in/tengku-muaz-abdussalam"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="px-3 py-1 bg-card rounded-full text-sm text-accent flex items-center gap-2 hover:bg-white/5 transition-colors cursor-pointer"
-        >
-          <UserRoundSearch size={18} />
-          LinkedIn
-        </a>
+          <a
+            href="mailto:tengkumuaz.abs@gmail.com"
+            className="px-3 py-1 rounded-full text-sm flex items-center gap-2 bg-accent text-bg font-normal hover:bg-accent/80 transition-colors cursor-pointer shadow-sm"
+          >
+            <Mail size={18} />
+            Email Me
+          </a>
 
-        <a
-          href="https://drive.google.com/file/d/1tyar09aAalvsmWSlkuKXKo1aVTkVdAkB/view?usp=drive_link"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="px-3 py-1 bg-card rounded-full text-sm text-accent flex items-center gap-2 hover:bg-white/5 transition-colors cursor-pointer"
-        >
-          <Eye size={18} />
-          View My CV
-        </a>
+          <a
+            href="https://linkedin.com/in/tengku-muaz-abdussalam"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-3 py-1 rounded-full text-sm flex items-center gap-2 bg-accent text-bg font-normal hover:bg-accent/80 transition-colors cursor-pointer shadow-sm"
+          >
+            <UserRoundSearch size={18} />
+            LinkedIn
+          </a>
 
+          <a
+            href="https://drive.google.com/file/d/1tyar09aAalvsmWSlkuKXKo1aVTkVdAkB/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-3 py-1 rounded-full text-sm flex items-center gap-2 bg-accent text-bg font-normal hover:bg-accent/80 transition-colors cursor-pointer shadow-sm"
+          >
+            <Eye size={18} />
+            View My CV
+          </a>
+
+        </div>
       </div>
 
       {/* CV Download Link */}

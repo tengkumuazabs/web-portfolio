@@ -38,14 +38,14 @@ export default function Navbar() {
           {/* Highlighted pills */}
           <a
             href="#projects"
-            className="px-3 py-1 bg-card rounded-full text-sm text-accent flex items-center justify-center hover:bg-white/5 transition"
+            className="px-3 py-1 rounded-full text-sm flex items-center gap-2 bg-accent text-bg font-normal hover:bg-accent/80 transition-colors cursor-pointer shadow-sm"
           >
             Projects
           </a>
 
           <a
             href="#graphic-design"
-            className="px-3 py-1 bg-card rounded-full text-sm text-accent flex items-center justify-center hover:bg-white/5 transition"
+            className="px-3 py-1 rounded-full text-sm flex items-center gap-2 bg-accent text-bg font-normal hover:bg-accent/80 transition-colors cursor-pointer shadow-sm"
           >
             Design Portfolio
           </a>
