@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
+import { TrendingUp } from "lucide-react";
 
 const kpis = [
+  { label: "Years of Experience", value: "5+" },
   { label: "Dashboards Built", value: "5+" },
   { label: "Automation Scripts", value: "5+" },
   { label: "Design Assets", value: "500+" },
@@ -9,17 +11,25 @@ const kpis = [
 
 export default function KPI() {
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
-      {kpis.map((kpi, i) => (
-        <motion.div
-          key={i}
-          whileHover={{ scale: 1.05 }}
-          className="bg-card p-4 rounded-xl border border-white/10"
-        >
-          <p className="text-muted text-sm">{kpi.label}</p>
-          <h2 className="text-2xl font-bold text-accent">{kpi.value}</h2>
-        </motion.div>
-      ))}
+    <div className="mb-10" id="kpi">
+      {/* Heading with icon */}
+      <h2 className="text-xl font-semibold mb-4 flex items-center gap-2">
+        <TrendingUp size={18} />
+        Key Highlights
+      </h2>
+
+      <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+        {kpis.map((kpi, i) => (
+          <motion.div
+            key={i}
+            whileHover={{ scale: 1.05 }}
+            className="bg-card p-4 rounded-xl border border-white/10"
+          >
+            <p className="text-muted text-sm">{kpi.label}</p>
+            <h2 className="text-2xl font-bold text-accent">{kpi.value}</h2>
+          </motion.div>
+        ))}
+      </div>
     </div>
   );
 }
