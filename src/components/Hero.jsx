@@ -44,13 +44,23 @@ export default function Hero() {
           className="px-3 py-1 bg-card rounded-full text-sm text-accent flex items-center gap-2 hover:bg-white/5 transition-colors cursor-pointer"
         >
           <UserRoundSearch size={18} />
-          linkedin.com/in/tengku-muaz-abdussalam
+          LinkedIn
+        </a>
+
+        <a
+          href="https://drive.google.com/file/d/1tyar09aAalvsmWSlkuKXKo1aVTkVdAkB/view?usp=drive_link"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-3 py-1 bg-card rounded-full text-sm text-accent flex items-center gap-2 hover:bg-white/5 transition-colors cursor-pointer"
+        >
+          <Eye size={18} />
+          View My CV
         </a>
 
       </div>
 
       {/* CV Download Link */}
-      <div className="mt-6">
+      {/* <div className="mt-6">
         <a
           href="https://drive.google.com/file/d/1tyar09aAalvsmWSlkuKXKo1aVTkVdAkB/view?usp=drive_link"
           target="_blank"
@@ -60,7 +70,7 @@ export default function Hero() {
           <Eye size={16} />
           View my CV
         </a>
-      </div>
+      </div> */}
     </motion.div>
   );
 }

@@ -10,21 +10,25 @@ import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <div className="min-h-screen flex flex-col px-6 md:px-20 py-10">
+    <div className="min-h-screen flex flex-col py-10 bg-bg text-white">
       
-      <Navbar />
+      <div className="w-full max-w-5xl mx-auto px-6 md:px-10">
+        
+        <Navbar />
 
-      <main className="flex-1">
-        <Hero />
-        <KPI />
-        <Summary />
-        <Experience />
-        <SkillsChart />
-        <Projects />
-        <GraphicDesign />
-      </main> 
+        <main className="flex-1">
+          <Hero />
+          <KPI />
+          <Summary />
+          <Experience />
+          <SkillsChart />
+          <Projects />
+          <GraphicDesign />
+        </main>
 
-      <Footer />
+        <Footer />
+
+      </div>
     </div>
   );
 }

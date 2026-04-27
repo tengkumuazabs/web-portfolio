@@ -18,7 +18,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div id="projects">
+    <div id="projects" className="mb-10 scroll-mt-24">
       <h2 className="text-xl font-semibold mb-4 flex items-center gap-2">
         <Terminal size={18} />
         Projects

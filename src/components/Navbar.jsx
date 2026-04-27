@@ -16,13 +16,40 @@ export default function Navbar() {
         <h1 className="font-semibold">Web Portfolio</h1>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex gap-6 text-sm text-muted">
-          <a href="#hero" className="hover:text-white">Home</a>
-          <a href="#summary" className="hover:text-white">Summary</a>
-          <a href="#experience" className="hover:text-white">Experience</a>
-          <a href="#skills" className="hover:text-white">Skills</a>
-          <a href="#projects" className="hover:text-white">Projects</a>
-          <a href="#graphic-design" className="hover:text-white">Design Portfolio</a>
+        <div className="hidden md:flex items-center gap-3">
+
+          {/* Normal links */}
+          <a href="#hero" className="text-sm text-muted hover:text-white">
+            Home
+          </a>
+
+          <a href="#summary" className="text-sm text-muted hover:text-white">
+            Summary
+          </a>
+
+          <a href="#experience" className="text-sm text-muted hover:text-white">
+            Experience
+          </a>
+
+          <a href="#skills" className="text-sm text-muted hover:text-white">
+            Skills
+          </a>
+
+          {/* Highlighted pills */}
+          <a
+            href="#projects"
+            className="px-3 py-1 bg-card rounded-full text-sm text-accent flex items-center justify-center hover:bg-white/5 transition"
+          >
+            Projects
+          </a>
+
+          <a
+            href="#graphic-design"
+            className="px-3 py-1 bg-card rounded-full text-sm text-accent flex items-center justify-center hover:bg-white/5 transition"
+          >
+            Design Portfolio
+          </a>
+
         </div>
 
         {/* Mobile Button */}

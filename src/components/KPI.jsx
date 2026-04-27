@@ -26,7 +26,9 @@ export default function KPI() {
             className="bg-card p-4 rounded-xl border border-white/10"
           >
             <p className="text-muted text-sm">{kpi.label}</p>
-            <h2 className="text-2xl font-bold text-accent">{kpi.value}</h2>
+            <h2 className="text-2xl font-bold bg-gradient-to-r from-accent to-emerald-400 bg-clip-text text-transparent">
+              {kpi.value}
+            </h2>
           </motion.div>
         ))}
       </div>
