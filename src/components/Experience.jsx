@@ -36,9 +36,12 @@ export default function Experience() {
 
                 <div className="flex-1">
                   <div className="flex justify-between items-start">
-                    <div className="flex items-center gap-2">
+                    <div className="flex flex-col sm:flex-row sm:items-center sm:gap-2">
                       <h3 className="font-semibold">Commercial Process Officer</h3>
-                      <span className="px-2 py-0.5 bg-accent/20 text-accent text-xs font-medium rounded-full">Latest</span>
+
+                      <span className="px-2 py-0.5 bg-accent/20 text-accent text-xs font-medium rounded-full mt-1 sm:mt-0 w-fit">
+                        Latest
+                      </span>
                     </div>
                     <span className="text-xs text-muted">Aug 2025 – Jan 2026</span>
                   </div>
@@ -75,7 +78,7 @@ export default function Experience() {
 
                 <div className="flex-1">
                   <div className="flex justify-between items-start">
-                    <h3 className="font-semibold">Data Analyst (Freelance)</h3>
+                    <h3 className="font-semibold">Data Analyst (Project Based)</h3>
                     <span className="text-xs text-muted">2024</span>
                   </div>
 
