@@ -35,7 +35,15 @@ export default function Navbar() {
             Skills
           </a>
 
-          {/* Highlighted pills */}
+          <a href="#projects" className="text-sm text-muted hover:text-white">
+            Projects
+          </a>
+
+          <a href="#graphic-design" className="text-sm text-muted hover:text-white">
+            Design Portfolio
+          </a>
+
+          {/* Highlighted pills
           <a
             href="#projects"
             className="px-3 py-1 rounded-full text-sm flex items-center gap-2 bg-accent text-bg font-normal hover:bg-accent/80 transition-colors cursor-pointer shadow-sm"
@@ -48,7 +56,7 @@ export default function Navbar() {
             className="px-3 py-1 rounded-full text-sm flex items-center gap-2 bg-accent text-bg font-normal hover:bg-accent/80 transition-colors cursor-pointer shadow-sm"
           >
             Design Portfolio
-          </a>
+          </a> */}
 
         </div>
 
