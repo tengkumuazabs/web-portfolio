@@ -51,7 +51,7 @@ export default function Experience() {
                   </div>
 
                   <p className="text-sm text-accent mt-1">
-                    PT HM Sampoerna Tbk • Madiun, Indonesia
+                    PT HM Sampoerna Tbk • Madiun, East Java, Indonesia
                   </p>
 
                   <ul className="list-disc ml-5 mt-3 text-sm text-muted space-y-1">
@@ -87,7 +87,7 @@ export default function Experience() {
                   </div>
 
                   <p className="text-sm text-accent mt-1">
-                    Universitas Islam Indonesia • Sleman, Indonesia
+                    Universitas Islam Indonesia • Sleman, Yogyakarta, Indonesia
                   </p>
 
                   <ul className="list-disc ml-5 mt-3 text-sm text-muted space-y-1">
@@ -122,7 +122,7 @@ export default function Experience() {
                   </div>
 
                   <p className="text-sm text-accent mt-1">
-                    Universitas Islam Indonesia • Sleman, Indonesia
+                    Universitas Islam Indonesia • Sleman, Yogyakarta, Indonesia
                   </p>
 
                   <ul className="list-disc ml-5 mt-3 text-sm text-muted space-y-1">

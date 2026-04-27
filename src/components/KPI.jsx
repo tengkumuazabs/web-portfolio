@@ -5,7 +5,7 @@ const kpis = [
   { label: "Years of Experience", value: "5+" },
   { label: "Dashboards Built", value: "5+" },
   { label: "Automation Scripts", value: "5+" },
-  { label: "Design Assets", value: "500+" },
+  { label: "Design Assets", value: "1000+" },
   { label: "TOEFL Score", value: "587" },
 ];
 
