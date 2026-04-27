@@ -74,7 +74,7 @@ function SkillList({ title, data }) {
 /* ---------- radar chart (desktop UI) ---------- */
 function RadarBlock({ title, data }) {
   return (
-    <div className="bg-card p-5 rounded-xl border border-white/10">
+    <div className="bg-card p-5 rounded-xl border border-white/10" id="skills">
       <h3 className="text-sm text-muted mb-3">{title}</h3>
 
       <ResponsiveContainer width="100%" height={220}>

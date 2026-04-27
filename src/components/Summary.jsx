@@ -3,7 +3,7 @@ import { Sparkles, Crown } from "lucide-react";
 
 export default function Summary() {
   return (
-    <div className="mb-10" id="summary">
+    <div className="mb-10">
 
       {/* Heading with icon */}
       <h2 className="text-xl font-semibold mb-4 flex items-center gap-2">

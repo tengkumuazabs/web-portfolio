@@ -11,7 +11,7 @@ const kpis = [
 
 export default function KPI() {
   return (
-    <div className="mb-10" id="kpi">
+    <div className="mb-10" id="summary">
       {/* Heading with icon */}
       <h2 className="text-xl font-semibold mb-4 flex items-center gap-2">
         <TrendingUp size={18} />
