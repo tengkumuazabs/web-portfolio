@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { MapPin } from "lucide-react";
 import { Mail } from "lucide-react";
 import { UserRoundSearch } from "lucide-react";
-import { Download } from "lucide-react";
+import { Eye } from "lucide-react";
 
 
 export default function Hero() {
@@ -18,7 +18,7 @@ export default function Hero() {
       </h1>
 
       <p className="text-muted mt-2">
-        Data Analyst | FMCG Commercial Analytics | Power BI, Python & Excel VBA Automation | Graphic Design Enthusiast
+        Data Analyst • FMCG Commercial Analytics • Power BI, Python & Excel VBA Automation • Graphic Design Enthusiast
       </p>
 
       {/* Location + Contacts (inline) */}
@@ -26,7 +26,7 @@ export default function Hero() {
 
         <div className="px-3 py-1 bg-card rounded-full text-sm text-accent flex items-center gap-2">
           <MapPin size={18} />
-          Yogyakarta, Indonesia
+          Sleman, Yogyakarta, Indonesia
         </div>
 
         <a
@@ -57,7 +57,7 @@ export default function Hero() {
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-4 py-2 bg-accent/10 hover:bg-accent/20 text-accent rounded-lg border border-accent/30 hover:border-accent/50 transition-colors"
         >
-          <Download size={16} />
+          <Eye size={16} />
           View my CV
         </a>
       </div>

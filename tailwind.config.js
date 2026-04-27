@@ -5,9 +5,14 @@ export default {
       colors: {
         bg: "#0b1220",
         card: "#111a2e",
-        // accent: "#4f46e5",
         accent: "#80bda8",
         muted: "#94a3b8",
+      },
+
+      // 👇 ADD THIS PART
+      fontFamily: {
+        sans: ["Rubik", "sans-serif"],
+        display: ["Montserrat", "sans-serif"],
       },
     },
   },

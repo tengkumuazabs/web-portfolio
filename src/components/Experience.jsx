@@ -37,11 +37,15 @@ export default function Experience() {
                 <div className="flex-1">
                   <div className="flex justify-between items-start">
                     <div className="flex flex-col sm:flex-row sm:items-center sm:gap-2">
-                      <h3 className="font-semibold">Commercial Process Officer</h3>
-
-                      <span className="px-2 py-0.5 bg-accent/20 text-accent text-xs font-medium rounded-full mt-1 sm:mt-0 w-fit">
+                      {/* Latest pill (mobile: top, desktop: left) */}
+                      <span className="px-2 py-0.5 bg-accent/20 text-accent text-xs font-medium rounded-full w-fit sm:order-1 order-1 mb-1 sm:mb-0">
                         Latest
                       </span>
+
+                      {/* Title */}
+                      <h3 className="font-semibold sm:order-2 order-2">
+                        Commercial Process Officer
+                      </h3>
                     </div>
                     <span className="text-xs text-muted">Aug 2025 – Jan 2026</span>
                   </div>
@@ -122,7 +126,7 @@ export default function Experience() {
                   </p>
 
                   <ul className="list-disc ml-5 mt-3 text-sm text-muted space-y-1">
-                    <li>Designed 500+ social media assets for campaigns and events</li>
+                    <li>Designed 1000+ social media assets for campaigns and events</li>
                     <li>Created posters, banners, and branding materials</li>
                     <li>Maintained visual consistency across platforms</li>
                     <li>Optimized designs for both digital and print output</li>
