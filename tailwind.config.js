@@ -6,7 +6,7 @@ export default {
         bg: "#0b1220",
         card: "#111a2e",
         // accent: "#4f46e5",
-        accent: "#a180bd",
+        accent: "#80bda8",
         muted: "#94a3b8",
       },
     },

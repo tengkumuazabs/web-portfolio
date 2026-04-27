@@ -36,7 +36,10 @@ export default function Experience() {
 
                 <div className="flex-1">
                   <div className="flex justify-between items-start">
-                    <h3 className="font-semibold">Commercial Process Officer</h3>
+                    <div className="flex items-center gap-2">
+                      <h3 className="font-semibold">Commercial Process Officer</h3>
+                      <span className="px-2 py-0.5 bg-accent/20 text-accent text-xs font-medium rounded-full">Latest</span>
+                    </div>
                     <span className="text-xs text-muted">Aug 2025 – Jan 2026</span>
                   </div>
 

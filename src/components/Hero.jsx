@@ -1,4 +1,8 @@
 import { motion } from "framer-motion";
+import { MapPin } from "lucide-react";
+import { Mail } from "lucide-react";
+import { UserRoundSearch } from "lucide-react";
+
 
 export default function Hero() {
   return (
@@ -19,15 +23,18 @@ export default function Hero() {
       {/* Location + Contacts (inline) */}
       <div className="mt-4 flex flex-wrap items-center gap-2">
 
-        <div className="px-3 py-1 bg-card rounded-full text-sm text-accent">
-          <b>Yogyakarta, Indonesia</b>
+        <div className="px-3 py-1 bg-card rounded-full text-sm text-accent flex items-center gap-2">
+          <MapPin size={18} />
+          Yogyakarta, Indonesia
         </div>
 
-        <div className="px-3 py-1 bg-card rounded-full text-sm text-accent">
+        <div className="px-3 py-1 bg-card rounded-full text-sm text-accent flex items-center gap-2">
+          <Mail size={18} />
           tengkumuaz.abs@gmail.com
         </div>
 
-        <div className="px-3 py-1 bg-card rounded-full text-sm text-accent">
+        <div className="px-3 py-1 bg-card rounded-full text-sm text-accent flex items-center gap-2">
+          <UserRoundSearch size={18} />
           linkedin.com/in/tengku-muaz-abdussalam
         </div>
 

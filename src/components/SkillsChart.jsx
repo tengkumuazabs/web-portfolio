@@ -37,7 +37,7 @@ function RadarBlock({ title, data }) {
           <Radar
             dataKey="A"
             // stroke="#4f46e5"
-            fill="#a180bd"
+            fill="#80bda8"
             fillOpacity={0.4}
           />
         </RadarChart>
