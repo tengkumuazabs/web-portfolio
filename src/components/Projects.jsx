@@ -7,8 +7,8 @@ const projects = [
     link: "https://covid-19-data-visualizer.streamlit.app",
   },
   {
-    name: "NIK OCR Extractor",
-    link: "https://doc-ocr.streamlit.app",
+    name: "Sentiment Analysis of Temple Reviews",
+    link: "https://github.com/tengkumuazabs/temple-review-sentiment",
   },
   {
     name: "Currency Classifier",
