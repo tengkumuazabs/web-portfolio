@@ -4,7 +4,7 @@ import { Terminal } from "lucide-react";
 const projects = [
   {
     name: "COVID-19 Spatial Analysis",
-    link: "https://covid-19-data-visualizer.streamlit.app",
+    link: "https://github.com/tengkumuazabs/covid-19-dashboard",
   },
   {
     name: "Sentiment Analysis of Temple Reviews",
