@@ -3,7 +3,7 @@ import { Terminal } from "lucide-react";
 
 const projects = [
   {
-    name: "COVID-19 Spatial Analysis",
+    name: "COVID-19 Dashboard",
     link: "https://github.com/tengkumuazabs/covid-19-dashboard",
   },
   {
