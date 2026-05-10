@@ -6,7 +6,16 @@ import {
   Radar,
 } from "recharts";
 
-import { Settings } from "lucide-react";
+import {
+  Settings,
+  Code,
+  LayoutGrid,
+  BarChart3,
+  Cpu,
+  Sparkles,
+  PenTool,
+  Layers,
+} from "lucide-react";
 import { useEffect, useState } from "react";
 
 /* ---------- data ---------- */
@@ -130,6 +139,89 @@ export default function SkillsChart() {
             data={graphicDesign}
           />
         )}
+      </div>
+
+      <div className="mt-8 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+        <div className="bg-card p-6 rounded-3xl border border-white/10 shadow-lg shadow-black/10">
+          <div className="flex items-center gap-3 mb-4 text-accent">
+            <Code size={22} />
+            <div>
+              <h3 className="text-base font-semibold">Languages & Frameworks</h3>
+              <p className="text-xs uppercase tracking-[0.2em] text-muted">Core development stack</p>
+            </div>
+          </div>
+          <p className="text-sm leading-7 text-slate-200">
+            Python (Pandas, NumPy, Matplotlib, Seaborn, Plotly, scikit-learn, Streamlit), SQL, React, FastAPI
+          </p>
+        </div>
+
+        <div className="bg-card p-6 rounded-3xl border border-white/10 shadow-lg shadow-black/10">
+          <div className="flex items-center gap-3 mb-4 text-accent">
+            <LayoutGrid size={22} />
+            <div>
+              <h3 className="text-base font-semibold">Frontend & Styling</h3>
+              <p className="text-xs uppercase tracking-[0.2em] text-muted">Visual UI tools</p>
+            </div>
+          </div>
+          <p className="text-sm leading-7 text-slate-200">Tailwind CSS</p>
+        </div>
+
+        <div className="bg-card p-6 rounded-3xl border border-white/10 shadow-lg shadow-black/10">
+          <div className="flex items-center gap-3 mb-4 text-accent">
+            <BarChart3 size={22} />
+            <div>
+              <h3 className="text-base font-semibold">Data Analysis & BI</h3>
+              <p className="text-xs uppercase tracking-[0.2em] text-muted">Reporting platforms</p>
+            </div>
+          </div>
+          <p className="text-sm leading-7 text-slate-200">Microsoft Power BI, Microsoft Excel</p>
+        </div>
+
+        <div className="bg-card p-6 rounded-3xl border border-white/10 shadow-lg shadow-black/10">
+          <div className="flex items-center gap-3 mb-4 text-accent">
+            <Cpu size={22} />
+            <div>
+              <h3 className="text-base font-semibold">Automation & Deployment</h3>
+              <p className="text-xs uppercase tracking-[0.2em] text-muted">Process efficiency</p>
+            </div>
+          </div>
+          <p className="text-sm leading-7 text-slate-200">VBA Excel, Docker</p>
+        </div>
+
+        <div className="bg-card p-6 rounded-3xl border border-white/10 shadow-lg shadow-black/10">
+          <div className="flex items-center gap-3 mb-4 text-accent">
+            <Sparkles size={22} />
+            <div>
+              <h3 className="text-base font-semibold">Data Analysis</h3>
+              <p className="text-xs uppercase tracking-[0.2em] text-muted">Insight-driven skills</p>
+            </div>
+          </div>
+          <p className="text-sm leading-7 text-slate-200">
+            Data Cleaning, Data Visualization, Dashboard Development, Sales Analytics, Reporting Automation
+          </p>
+        </div>
+
+        <div className="bg-card p-6 rounded-3xl border border-white/10 shadow-lg shadow-black/10">
+          <div className="flex items-center gap-3 mb-4 text-accent">
+            <PenTool size={22} />
+            <div>
+              <h3 className="text-base font-semibold">Design Tools</h3>
+              <p className="text-xs uppercase tracking-[0.2em] text-muted">Creative software</p>
+            </div>
+          </div>
+          <p className="text-sm leading-7 text-slate-200">Adobe Illustrator, CorelDRAW, Adobe Photoshop</p>
+        </div>
+
+        <div className="bg-card p-6 rounded-3xl border border-white/10 shadow-lg shadow-black/10">
+          <div className="flex items-center gap-3 mb-4 text-accent">
+            <Layers size={22} />
+            <div>
+              <h3 className="text-base font-semibold">Other Tools</h3>
+              <p className="text-xs uppercase tracking-[0.2em] text-muted">Supporting apps</p>
+            </div>
+          </div>
+          <p className="text-sm leading-7 text-slate-200">Microsoft PowerPoint, Canva (basic), Figma (basic)</p>
+        </div>
       </div>
     </div>
   );
