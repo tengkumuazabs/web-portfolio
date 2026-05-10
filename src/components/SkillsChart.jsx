@@ -142,7 +142,7 @@ export default function SkillsChart() {
       </div>
 
       <div className="mt-8 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
-        <div className="bg-card p-6 rounded-3xl border border-white/10 shadow-lg shadow-black/10">
+        <div className="bg-card p-6 rounded-xl border border-white/10 shadow-lg shadow-black/10">
           <div className="flex items-center gap-3 mb-4 text-accent">
             <Code size={22} />
             <div>
@@ -155,7 +155,7 @@ export default function SkillsChart() {
           </p>
         </div>
 
-        <div className="bg-card p-6 rounded-3xl border border-white/10 shadow-lg shadow-black/10">
+        <div className="bg-card p-6 rounded-xl border border-white/10 shadow-lg shadow-black/10">
           <div className="flex items-center gap-3 mb-4 text-accent">
             <LayoutGrid size={22} />
             <div>
@@ -166,7 +166,7 @@ export default function SkillsChart() {
           <p className="text-sm leading-7 text-slate-200">Tailwind CSS</p>
         </div>
 
-        <div className="bg-card p-6 rounded-3xl border border-white/10 shadow-lg shadow-black/10">
+        <div className="bg-card p-6 rounded-xl border border-white/10 shadow-lg shadow-black/10">
           <div className="flex items-center gap-3 mb-4 text-accent">
             <BarChart3 size={22} />
             <div>
@@ -177,7 +177,7 @@ export default function SkillsChart() {
           <p className="text-sm leading-7 text-slate-200">Microsoft Power BI, Microsoft Excel</p>
         </div>
 
-        <div className="bg-card p-6 rounded-3xl border border-white/10 shadow-lg shadow-black/10">
+        <div className="bg-card p-6 rounded-xl border border-white/10 shadow-lg shadow-black/10">
           <div className="flex items-center gap-3 mb-4 text-accent">
             <Cpu size={22} />
             <div>
@@ -188,7 +188,7 @@ export default function SkillsChart() {
           <p className="text-sm leading-7 text-slate-200">VBA Excel, Docker</p>
         </div>
 
-        <div className="bg-card p-6 rounded-3xl border border-white/10 shadow-lg shadow-black/10">
+        <div className="bg-card p-6 rounded-xl border border-white/10 shadow-lg shadow-black/10">
           <div className="flex items-center gap-3 mb-4 text-accent">
             <Sparkles size={22} />
             <div>
@@ -201,7 +201,7 @@ export default function SkillsChart() {
           </p>
         </div>
 
-        <div className="bg-card p-6 rounded-3xl border border-white/10 shadow-lg shadow-black/10">
+        <div className="bg-card p-6 rounded-xl border border-white/10 shadow-lg shadow-black/10">
           <div className="flex items-center gap-3 mb-4 text-accent">
             <PenTool size={22} />
             <div>
@@ -212,7 +212,7 @@ export default function SkillsChart() {
           <p className="text-sm leading-7 text-slate-200">Adobe Illustrator, CorelDRAW, Adobe Photoshop</p>
         </div>
 
-        <div className="bg-card p-6 rounded-3xl border border-white/10 shadow-lg shadow-black/10">
+        <div className="bg-card p-6 rounded-xl border border-white/10 shadow-lg shadow-black/10">
           <div className="flex items-center gap-3 mb-4 text-accent">
             <Layers size={22} />
             <div>

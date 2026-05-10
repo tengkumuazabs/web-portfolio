@@ -3,6 +3,7 @@ import { MapPin } from "lucide-react";
 import { Mail } from "lucide-react";
 import { UserRoundSearch } from "lucide-react";
 import { Eye } from "lucide-react";
+import { GitBranch } from "lucide-react";
 
 
 export default function Hero() {
@@ -47,6 +48,16 @@ export default function Hero() {
           >
             <UserRoundSearch size={18} />
             LinkedIn
+          </a>
+
+          <a
+            href="https://github.com/tengkumuazabs/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-3 py-1 rounded-full text-sm flex items-center gap-2 bg-accent text-bg font-normal hover:bg-accent/80 transition-colors cursor-pointer shadow-sm"
+          >
+            <GitBranch size={18} />
+            GitHub
           </a>
 
           <a
